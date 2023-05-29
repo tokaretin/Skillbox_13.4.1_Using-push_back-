@@ -13,16 +13,16 @@ int main()
 
     while (true)
     {
-        std::cout << "Робот введи свой порядковый номер: ";
+        std::cout << "Robot enter your serial number: ";
         std::cin >> number;
         
         if (number == -1) break;
         vec.push_back(number);
     }
 
-    std::cout << "The line of robots: " << '\n';
+    std::cout << "Robot line: " << '\n';
     for (int i = 0; i < vec.size(); i++)
     {
-        std::cout << "Робот " << i + 1 << ": " << vec[i] << '\n';
+        std::cout << "Robot " << i + 1 << ": " << vec[i] << '\n';
     }
 }
